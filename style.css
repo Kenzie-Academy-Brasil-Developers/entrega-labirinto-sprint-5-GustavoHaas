@@ -1,0 +1,68 @@
+#game {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.linha {
+    display: flex;
+}
+
+.W {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.espaco {
+    width: 50px;
+    height: 50px;
+    background-color: cornsilk;
+}
+
+.F {
+    width: 50px;
+    height: 50px;
+    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/portal.png);
+    background-size: contain;
+    background-color: cornsilk; 
+}
+
+.S {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.R {
+    width: 50px;
+    height: 50px;
+    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/rat.png);
+    background-size: contain;
+    background-color: cornsilk;
+}
+
+.I {
+    width: 50px;
+    height: 50px;
+    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/injecao.png);
+    background-size: contain;
+    background-color: cornsilk;
+}
+
+#player {
+    position: absolute;
+    top: 460px;
+    left: 153px;
+    width: 45px;
+    height: 45px;
+    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/pickleRick.png);
+    background-size: contain;
+    transform: scaleX(-1);
+}
+
+#win {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    visibility: hidden;
+}
