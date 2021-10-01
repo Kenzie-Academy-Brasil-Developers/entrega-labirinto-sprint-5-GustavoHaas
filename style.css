@@ -22,7 +22,7 @@
 .F {
     width: 50px;
     height: 50px;
-    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/portal.png);
+    background-image: url(../assests/portal.png);
     background-size: contain;
     background-color: cornsilk; 
 }
@@ -36,7 +36,7 @@
 .R {
     width: 50px;
     height: 50px;
-    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/rat.png);
+    background-image: url(../assests/rat.png);
     background-size: contain;
     background-color: cornsilk;
 }
@@ -44,7 +44,7 @@
 .I {
     width: 50px;
     height: 50px;
-    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/injecao.png);
+    background-image: url(../assests/injecao.png);
     background-size: contain;
     background-color: cornsilk;
 }
@@ -55,7 +55,7 @@
     left: 153px;
     width: 45px;
     height: 45px;
-    background-image: url(../entrega-labirinto-sprint-5-GustavoHaas/assests/pickleRick.png);
+    background-image: url(../assests/pickleRick.png);
     background-size: contain;
     transform: scaleX(-1);
 }
