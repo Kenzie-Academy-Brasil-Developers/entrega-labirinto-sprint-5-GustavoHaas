@@ -105,12 +105,12 @@ document.addEventListener('keydown', (event) => {
 
     if (xEy === 'R') {
         pickeRick.play()
-        document.getElementById('player').style.backgroundImage = 'url(../assests/ratSuit.png)'
+        document.getElementById('player').style.backgroundImage = 'url(assests/ratSuit.png)'
     }
 
     if (xEy === 'I') {
         yes.play()
-        document.getElementById('player').style.backgroundImage = 'url(../assests/Rick.png)'
+        document.getElementById('player').style.backgroundImage = 'url(assests/Rick.png)'
     }
 
     if (xEy === 'F') {
